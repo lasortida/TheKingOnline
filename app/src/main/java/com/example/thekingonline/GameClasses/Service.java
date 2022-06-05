@@ -1,6 +1,8 @@
 package com.example.thekingonline.GameClasses;
 
-public class Service {
+import java.io.Serializable;
+
+public class Service implements Serializable {
     public int numberOfWeek;
     public String idOfRoom;
     public int userCode;

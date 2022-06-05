@@ -2,7 +2,9 @@ package com.example.thekingonline.GameClasses;
 
 import com.example.thekingonline.R;
 
-public class Storage {
+import java.io.Serializable;
+
+public class Storage implements Serializable {
     Country[] countries = {
             new Country(0, "Гоуленд", R.drawable.goland, R.drawable.you_goland),
             new Country(1, "Догсленд", R.drawable.dogsland, R.drawable.you_dogsland),

@@ -1,6 +1,8 @@
 package com.example.thekingonline.GameClasses;
 
-public class TradeNote extends Note{
+import java.io.Serializable;
+
+public class TradeNote extends Note implements Serializable {
     public int stateToMe;
     public int stateAway;
 

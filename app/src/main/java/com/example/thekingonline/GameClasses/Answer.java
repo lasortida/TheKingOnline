@@ -1,6 +1,8 @@
 package com.example.thekingonline.GameClasses;
 
-public class Answer {
+import java.io.Serializable;
+
+public class Answer implements Serializable {
     private String text;
     private Effect effect;
 

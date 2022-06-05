@@ -1,6 +1,8 @@
 package com.example.thekingonline.GameClasses;
 
-public class Week {
+import java.io.Serializable;
+
+public class Week implements Serializable {
     private Act[] acts = new Act[3];
 
     public Week(Storage storage){

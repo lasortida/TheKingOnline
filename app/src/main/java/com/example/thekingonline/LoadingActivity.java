@@ -125,7 +125,7 @@ public class LoadingActivity extends AppCompatActivity {
                         if (data.start){
                             countryId = data.countryId;
                             Game game = new Game(countryId);
-                            startActivity(new Intent(LoadingActivity.this, GovernMenuActivity.class));
+                            startActivity(new Intent(LoadingActivity.this, GovernMenuActivity.class).putExtra("GAME", game));
                             finish();
                         }
                     }

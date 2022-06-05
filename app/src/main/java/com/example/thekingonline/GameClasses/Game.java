@@ -1,8 +1,9 @@
 package com.example.thekingonline.GameClasses;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Game {
+public class Game implements Serializable {
     public int numberOfWeek;
     public Service service;
     public Country[] countries;

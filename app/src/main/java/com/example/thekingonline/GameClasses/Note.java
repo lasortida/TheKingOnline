@@ -1,6 +1,8 @@
 package com.example.thekingonline.GameClasses;
 
-public class Note {
+import java.io.Serializable;
+
+public class Note implements Serializable {
     public int idOfSender;
     public String text;
     public boolean isAccepted;

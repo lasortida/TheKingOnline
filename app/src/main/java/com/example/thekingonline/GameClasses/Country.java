@@ -1,6 +1,8 @@
 package com.example.thekingonline.GameClasses;
 
-public class Country {
+import java.io.Serializable;
+
+public class Country implements Serializable {
     public String name;
     public int id;
     public int idOfIcon;

@@ -1,6 +1,8 @@
 package com.example.thekingonline.GameClasses;
 
-public class AllianceNote extends Note{
+import java.io.Serializable;
+
+public class AllianceNote extends Note implements Serializable {
     public int idOfAlliance;
 
     public AllianceNote(int idOfAlliance, String text, int idOfSender){

@@ -1,8 +1,9 @@
 package com.example.thekingonline.GameClasses;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Alliance {
+public class Alliance implements Serializable {
     public String name;
     public int idOfOwner;
     public String description;
